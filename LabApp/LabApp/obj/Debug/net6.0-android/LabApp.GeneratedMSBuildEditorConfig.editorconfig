@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net6.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LabApp
+build_property.ProjectDir = C:\Users\sea25\Desktop\bsuir\ISP\4thSemester\LabApp\LabApp\
+
+[C:/Users/sea25/Desktop/bsuir/ISP/4thSemester/LabApp/LabApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LabApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/sea25/Desktop/bsuir/ISP/4thSemester/LabApp/LabApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LabApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/sea25/Desktop/bsuir/ISP/4thSemester/LabApp/LabApp/CalculatorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LabApp.CalculatorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CalculatorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CalculatorPage.xaml
+
+[C:/Users/sea25/Desktop/bsuir/ISP/4thSemester/LabApp/LabApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LabApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/sea25/Desktop/bsuir/ISP/4thSemester/LabApp/LabApp/ProgressBarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LabApp.ProgressBarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ProgressBarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ProgressBarPage.xaml
+
+[C:/Users/sea25/Desktop/bsuir/ISP/4thSemester/LabApp/LabApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LabApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/sea25/Desktop/bsuir/ISP/4thSemester/LabApp/LabApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LabApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LabApp.CalculatorPage"
+             Title="Calculator">
+    <Grid
+        ColumnDefinitions="*,*,*,*"
+        RowDefinitions="1.6*,*,*,*,*,*,*"
+        Padding="10"
+        RowSpacing="0">
+
+        <Button Grid.Row="6" Grid.Column="1" Text="0" Style="{StaticResource ButtonNumberStyle}" Clicked="ButtonNumberClicked"/>
+        <Button Grid.Row="6" Grid.Column="0" Text="+/−" Style="{StaticResource ButtonNumberStyle}" Clicked="ButtonNegativeClicked"/>
+        <Button Grid.Row="6" Grid.Column="2" Text="." Style="{StaticResource ButtonNumberStyle}" Clicked="ButtonNumberClicked"/>
+        <Button Grid.Row="6" Grid.Column="3" Text="=" Style="{StaticResource ButtonEqualsStyle}" Clicked="ButtonCalculateClicked"/>
+
+        <Button Grid.Row="5" Grid.Column="0" Text="1" Style="{StaticResource ButtonNumberStyle}" Clicked="ButtonNumberClicked"/>
+        <Button Grid.Row="5" Grid.Column="1" Text="2" Style="{StaticResource ButtonNumberStyle}" Clicked="ButtonNumberClicked"/>
+        <Button Grid.Row="5" Grid.Column="2" Text="3" Style="{StaticResource ButtonNumberStyle}" Clicked="ButtonNumberClicked"/>
+        <Button Grid.Row="5" Grid.Column="3" Text="+" Style="{StaticResource ButtonFunctionStyle}" Clicked="ButtonOperationClicked"/>
+
+        <Button Grid.Row="4" Grid.Column="0" Text="4" Style="{StaticResource ButtonNumberStyle}" Clicked="ButtonNumberClicked"/>
+        <Button Grid.Row="4" Grid.Column="1" Text="5" Style="{StaticResource ButtonNumberStyle}" Clicked="ButtonNumberClicked"/>
+        <Button Grid.Row="4" Grid.Column="2" Text="6" Style="{StaticResource ButtonNumberStyle}" Clicked="ButtonNumberClicked"/>
+        <Button Grid.Row="4" Grid.Column="3" Text="−" Style="{StaticResource ButtonFunctionStyle}" Clicked="ButtonOperationClicked"/>
+
+        <Button Grid.Row="3" Grid.Column="0" Text="7" Style="{StaticResource ButtonNumberStyle}" Clicked="ButtonNumberClicked"/>
+        <Button Grid.Row="3" Grid.Column="1" Text="8" Style="{StaticResource ButtonNumberStyle}" Clicked="ButtonNumberClicked"/>
+        <Button Grid.Row="3" Grid.Column="2" Text="9" Style="{StaticResource ButtonNumberStyle}" Clicked="ButtonNumberClicked"/>
+        <Button Grid.Row="3" Grid.Column="3" Text="×" Style="{StaticResource ButtonFunctionStyle}" Clicked="ButtonOperationClicked"/>
+
+        <Button Grid.Row="2" Grid.Column="0" Text="1/x" Style="{StaticResource ButtonFunctionStyle}" Clicked="ButtonInverseClicked"/>
+        <Button Grid.Row="2" Grid.Column="1" Text="x²" Style="{StaticResource ButtonFunctionStyle}" Clicked="ButtonSquareClicked"/>
+        <Button Grid.Row="2" Grid.Column="2" Text="√" Style="{StaticResource ButtonFunctionStyle}" Clicked="ButtonSqrtClicked"/>
+        <Button Grid.Row="2" Grid.Column="3" Text="÷" Style="{StaticResource ButtonFunctionStyle}" Clicked="ButtonOperationClicked"/>
+
+        <Button Grid.Row="1" Grid.Column="0" Text="％" Style="{StaticResource ButtonFunctionStyle}" Clicked="ButtonPercentClicked"/>
+        <Button Grid.Row="1" Grid.Column="1" Text="∣ x ∣" Style="{StaticResource ButtonFunctionStyle}" Clicked="ButtonAbsClicked"/>
+        <Button Grid.Row="1" Grid.Column="2" Text="C" Style="{StaticResource ButtonFunctionStyle}" Clicked="ButtonClearClicked"/>
+        <Button Grid.Row="1" Grid.Column="3" Text="⌫" Style="{StaticResource ButtonFunctionStyle}" Clicked="ButtonBackspaceClicked"/>
+
+
+        <Label x:Name="ResultLabel"
+               Text="0"
+               FontAttributes="Bold"
+               FontSize="29"
+               TextColor="#c1deda"
+               HorizontalTextAlignment="End"
+               VerticalTextAlignment="Center"
+               Padding="10"
+               LineBreakMode="NoWrap"
+               Grid.ColumnSpan="4"
+               />
+
+        <Label x:Name="InputLabel"
+               Text=""
+               FontAttributes="Bold"
+               FontSize="22"
+               Padding="10"
+               TextColor="#c1deda"
+               HorizontalTextAlignment="End"
+               VerticalTextAlignment="Start"
+               LineBreakMode="NoWrap"
+               Grid.Row="0"
+               Grid.ColumnSpan="4"
+               />   
+    </Grid>
+</ContentPage>
