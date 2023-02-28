@@ -76,7 +76,7 @@ public partial class ProgressBarPage : ContentPage
         if (!isRunning)
         {
             cancellationTokenSource.Cancel();
-            cancellationTokenSource.Dispose();
+            cancellationTokenSource.Dispose();     //    ???
         }
     }
 
